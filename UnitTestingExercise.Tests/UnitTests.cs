@@ -27,10 +27,7 @@ namespace UnitTestingExercise.Tests
                  Assert.Equal(expected, actual);
         }
 
-        private object Add(int num1, int num2, int num3)
-        {
-            throw new NotImplementedException();
-        }
+      
 
         [Theory]
         [InlineData(7,6,1)]//Add test data <-------
